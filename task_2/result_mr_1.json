@@ -1,0 +1,25 @@
+Current Mongosh Log ID:	61d324cee1338fef4bb40e46
+Connecting to:		mongodb://localhost:27017/nbd?directConnection=true&serverSelectionTimeoutMS=2000
+Using MongoDB:		5.0.5
+Using Mongosh:		1.1.7
+
+For mongosh info see: [1mhttps://docs.mongodb.com/mongodb-shell/[0m
+
+------
+   The server generated these startup warnings when booting:
+   2022-01-03T16:52:26.702+01:00: Access control is not enabled for the database. Read and write access to data and configuration is unrestricted
+------
+
+Loading file: C:\Users\Admin\Desktop\nbd\Assigments\Assignment_2\query_mr_1.js
+DeprecationWarning: Collection.mapReduce() is deprecated. Use an aggregation instead.
+See https://docs.mongodb.com/manual/core/map-reduce for details.
+[
+  {
+    _id: 'Male',
+    value: { avgweight: 70.01016757520698, avgheight: 166.7363638199073 }
+  },
+  {
+    _id: 'Female',
+    value: { avgweight: 70.11331573604069, avgheight: 166.81260913705572 }
+  }
+]
