@@ -1,0 +1,38 @@
+Current Mongosh Log ID:	61d321de6d276c24c320e343
+Connecting to:		mongodb://localhost:27017/nbd?directConnection=true&serverSelectionTimeoutMS=2000
+Using MongoDB:		5.0.5
+Using Mongosh:		1.1.7
+
+For mongosh info see: [1mhttps://docs.mongodb.com/mongodb-shell/[0m
+
+------
+   The server generated these startup warnings when booting:
+   2022-01-03T16:52:26.702+01:00: Access control is not enabled for the database. Read and write access to data and configuration is unrestricted
+------
+
+Loading file: C:\Users\Admin\Desktop\nbd\Assigments\Assignment_1\query_1.js
+{
+  _id: ObjectId("61d31f638f4c2b782e43c387"),
+  sex: 'Male',
+  first_name: 'Wayne',
+  last_name: 'Fields',
+  job: 'Speech Pathologist',
+  email: 'wfields0@diigo.com',
+  location: {
+    city: 'Oyo',
+    address: { streetname: 'Beilfuss', streetnumber: '860' }
+  },
+  description: 'vulputate justo in blandit ultrices enim lorem ipsum dolor sit amet consectetuer adipiscing elit proin interdum mauris',
+  height: '152.38',
+  weight: '66.81',
+  birth_date: '1990-02-21T02:55:03Z',
+  nationality: 'Nigeria',
+  credit: [
+    {
+      type: 'switch',
+      number: '6759888939100098699',
+      currency: 'COP',
+      balance: '5117.06'
+    }
+  ]
+}
