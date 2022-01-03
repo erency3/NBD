@@ -1,0 +1,3 @@
+{"Name":"Eren","Age":18,"isStudent":true}
+{"Name":"Eren Yalcin","Age":18,"isStudent":true}
+null
