@@ -1,0 +1,24 @@
+1)
+curl -i -XPUT -H "Content-Type: application/json" -d '{"name": "Pablo", "surname": "Escobar", "age": 22, "weight": 75}' http://localhost:8098/buckets/s22546/keys/Pablo
+curl -i -XPUT -H "Content-Type: application/json" -d '{"name": "Eren", "surname": "Yalcin", "age": 28, "weight": 73}' http://localhost:8098/buckets/s22546/keys/Eren
+curl -i -XPUT -H "Content-Type: application/json" -d '{"name": "Emir", "surname": "Talay", "age": 32, "weight": 91}' http://localhost:8098/buckets/s22546/keys/Emir
+curl -i -XPUT -H "Content-Type: application/json" -d '{"name": "Furkan", "surname": "Kaynak", "age": 35, "weight": 56}' http://localhost:8098/buckets/s22546/keys/Furkan
+curl -i -XPUT -H "Content-Type: application/json" -d '{"name": "Evrim", "surname": "Kaya", "age": 53, "weight": 51}' http://localhost:8098/buckets/s22546/keys/Evrim
+
+2)curl -i -XGET  http://localhost:8098/buckets/s22546/keys/Pablo
+
+3)curl -i -XPUT -H "Content-Type: application/json" -d '{"name": "Pablo", "surname": "Escobar", "age": 22, "weight": 90, "Nationality": "Colombian" }' http://localhost:8098/buckets/s22546/keys/Pablo
+
+4)curl -i -XPUT -H "Content-Type: application/json" -d '{"name": "Eren", "surname": "Yalcin", "age": 28 }' http://localhost:8098/buckets/s22546/keys/Eren
+
+5)curl -i -XPUT -H "Content-Type: application/json" -d '{"name": "Emir", "surname": "Talay", "age": 32, "weight": 105}' http://localhost:8098/buckets/s22546/keys/Emir
+
+6)curl -i -XDELETE http://localhost:8098/buckets/s22546/keys/Furkan
+
+7)curl -i -XGET  http://localhost:8098/buckets/s22546/keys/hello
+
+8)curl -i -XPOST -H "Content-Type: application/json" -d '{"name": "Messi"}' http://localhost:8098/buckets/s22546/keys
+
+9)curl -i -XGET  http://localhost:8098/buckets/s22546/keys/JGXF90fdhPg4BoruHC4nZKkzZXH
+
+10)curl -i -XDELETE http://localhost:8098/buckets/s22546/keys/JGXF90fdhPg4BoruHC4nZKkzZXH
